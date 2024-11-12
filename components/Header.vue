@@ -5,7 +5,7 @@
       <div class="flex items-center">
         <nuxt-link to="/">
           <!-- Church Logo -->
-          <!-- <img src="/assets/church-logo.png" alt="Church Logo" class="h-9 w-auto" /> -->
+          <img src="/assets/kjp-logo.jpg" alt="Church Logo" class="h-24 w-auto" />
         </nuxt-link>
       </div>
 
