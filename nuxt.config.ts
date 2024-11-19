@@ -4,6 +4,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss'],
   vite: {
-    assetsInclude: ['**/*.PNG'] 
-   } // Add this line to include PNG files as assets
+    assetsInclude: ['**/*.JPG', '**/*.jpeg', '**/*.png', '**/*.gif', '**/*.svg'],
+  },
 })
