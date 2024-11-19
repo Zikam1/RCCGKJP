@@ -45,7 +45,7 @@
 
       <!-- Church Address and Contact Information -->
       <p class="text-sm text-gray-400 mb-2">1 Chief Tony Chuku Street, Alcon Road, Woji, Portharcourt River State</p>
-      <p class="text-sm text-gray-400 mb-6">Phone: (123) 456-7890 | Email: info@kjprccg.org</p>
+      <p class="text-sm text-gray-400 mb-6">Phone: (123) 456-7890 | Email: info@riversprovince5kingjesus.org</p>
 
       <!-- Copyright Text -->
       <p class="text-sm text-gray-400">

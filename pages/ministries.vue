@@ -1,20 +1,20 @@
 <template>
-  <section class="py-48 bg-gray-400">
-    <div class="container mx-auto flex flex-col md:flex-row items-center max-w-5xl px-4 md:px-8">
-      <div class="md:w-1/2">
-        <img src="../assets/PC.JPG" class="w-full h-auto rounded-xl object-cover">
-      </div>
-      <div class="md:w-1/2 mt-16 md:mt-0 md:ml-10">
-        <h2 class="text-3xl font-bold text-gray-800 mb-4">PASTOR CHUMA OKORONKWO </h2>
-        <h2 class="text-lg font-bold text-gray-600 mb-4">ZONAL PASTOR IN CHARGE </h2>
-        <p class="text-lg text-gray-600 mb-4"></p>
-        <p class="text-lg text-gray-600 mb-6">
-          Join us every Wednesday from 10:00 AM to 12:00 Noon for a time of heartfelt worship, 
-          fervent prayers, and impactful teachings that will uplift your spirit and renew your
-          hope. Don’t miss this opportunity to encounter God’s grace and mercy in a powerful way. Come and be blessed!
-        </p>
-      </div>
+  <section class="md:py-24 bg-gray-100">
+  <div class="container mx-auto flex flex-col md:flex-row items-center max-w-5xl px-4 md:px-8">
+    <div class="md:w-1/2">
+      <img src="../assets/pc.JPG" class="w-full h-84 rounded-xl object-cover">
     </div>
+    <div class="md:w-1/2 mt-16 md:mt-0 md:ml-10">
+      <h2 class="text-3xl font-bold text-gray-800 mb-4">PASTOR CHUMA OKORONKWO </h2>
+      <h2 class="text-lg font-bold text-gray-600 mb-4">ZONAL PASTOR IN CHARGE </h2>
+      <p class="text-lg text-gray-600 mb-4">We gather every Tuesday for Digging Deep at 5:30 PM, 
+        Thursday for Faith Clinic at 5:30 PM, and Sunday for our main service at 8:00 AM. We would be delighted to have you join us!</p>
+      <p class="text-lg text-gray-600 mb-6">
+        
+      </p>
+    </div>
+  </div>
+
 
     <section class="py-24 bg-gray-100">
       <div class="container mx-auto flex flex-col md:flex-row items-center max-w-5xl px-4 md:px-8">

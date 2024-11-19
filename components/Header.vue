@@ -13,7 +13,6 @@
       <nav class="hidden md:flex space-x-6 ml-6">
         <nuxt-link to="/" class="text-yellow-500 hover:text-yellow-600">Home</nuxt-link>
         <nuxt-link to="/about" class="hover:text-yellow-500">About Us</nuxt-link>
-        <nuxt-link to="/sermons" class="hover:text-yellow-500">Sermons</nuxt-link>
         <nuxt-link to="/ministries" class="hover:text-yellow-500">Ministries</nuxt-link>
         <nuxt-link to="/contact" class="hover:text-yellow-500">Contact</nuxt-link>
       </nav>
@@ -21,7 +20,7 @@
       <!-- Donate and Contact Buttons (Hidden on Mobile) -->
       <div class="hidden md:flex items-center space-x-4">
         <nuxt-link to="/donate" class="bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded-full text-sm transition duration-300">
-          Donate
+        Prayers
         </nuxt-link>
         <nuxt-link to="/contact" class="border border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-white px-4 py-2 rounded-full text-sm transition duration-300">
           Contact Us
