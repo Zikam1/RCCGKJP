@@ -1,11 +1,8 @@
 <template>
-  <div class="bg-gray-100 text-gray-900">
-    <!-- Hero Section -->
-    <section class="relative bg-[url('/assets/kjp-logo.jpg')] bg-cover bg-center text-white h-screen flex items-center justify-center">
-      <div class="absolute inset-0 bg-black bg-opacity-10"></div> <!-- Overlay for better contrast -->
-
-      <!-- Content container, adjusted to move content down -->
-    </section>
+  <div class="bg-gray-100  text-gray-900">
+    <section class="relative md:pb-96 bg-[url('/assets/kjp-logo.jpg')] bg-cover bg-center text-white h-80 flex items-center justify-center">
+  <div class="absolute inset-0 bg-black bg-opacity-10"></div> 
+</section>
 
     <!-- Mission Statement Section -->
     <section class="py-16 bg-white text-center">
