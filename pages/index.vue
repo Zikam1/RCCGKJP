@@ -34,20 +34,7 @@
 </section>
 
 <!-- About Section -->
-<section class="bg-gray-200 py-16">
-  <div class="container mx-auto px-6">
-    <h2 class="text-3xl font-semibold text-center mb-8">About Us</h2>
-    <div class="flex flex-col md:flex-row items-center justify-center">
-      <img src="/assets/bible.jpg" alt="Church Building" class="w-full md:w-1/2 rounded-lg shadow-lg mb-6 md:mb-0">
-      <div class="md:ml-8 md:w-1/2 text-gray-700 py-8">
-        <p class="mb-8">
-          The Redeemed Christian Church of God (RCCG), founded in 1952 by Pastor Josiah Akindayomi in Nigeria, is a global Pentecostal church. Under Pastor Enoch Adeboye, it has grown to over 40,000 parishes in 190+ countries.<br> We focus on salvation, the Holy Spirit, holiness, and evangelism, and are known for vibrant worship and community outreach. <br><br> RCCG hosts events like the Holy Ghost Congress and supports social programs in healthcare, education, and charity. Its mission is to evangelize and serve communities, particularly in Africa, Europe, and North America.
-        </p>
-        <button class="bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded-lg mt-4">Learn More</button>
-      </div>
-    </div>
-  </div>
-</section>
+
   
       <!-- Service Times Section -->
       <div class="container mx-auto px-4 py-12">
@@ -83,21 +70,42 @@
   </div>
 
   
-      <!-- Message from the Pastor Section -->
-      <section class="bg-gray-200 py-16 text-center">
-        <div class="container mx-auto px-6">
-          <h2 class="text-3xl font-semibold mb-8">Message from Our Pastor</h2>
-          <div class="md:flex md:items-center">
-            <!-- <img src="/path/to/pastor-photo.jpg" alt="Pastor's Photo" class="w-full md:w-1/3 rounded-lg shadow-lg mb-6 md:mb-0"> -->
-            <div class="md:ml-8 md:w-2/3 text-gray-700">
-              <p class="mb-4">
-                Welcome to RCCG [Church Name]. I am thrilled to have you here, whether online or in person. At RCCG, we are committed to nurturing faith, love, and community. Join us to discover the grace and truth of Jesus Christ in an atmosphere of worship and compassion.
-              </p>
-              <button class="bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded-lg mt-4">Learn More</button>
-            </div>
-          </div>
-        </div>
-      </section>
+
+  <section class="py-24 bg-gray-50">
+  <div class="container mx-auto flex flex-col md:flex-row items-center max-w-5xl px-4 md:px-8">
+    <div class="md:w-1/2">
+      <img src="../assets/hhmm.jpg" alt="About Us" class="rounded-lg shadow-lg">
+    </div>
+    <div class="md:w-1/2 mt-8 md:mt-0 md:ml-10">
+      <h2 class="text-3xl font-bold text-gray-800 mb-4">HOUR OF MERCY</h2>
+      <p class="text-lg text-gray-600 mb-4">
+        We invites you to the Hour of Mercy,
+         a life-transforming program where you can experience the boundless 
+         mercy of God. This special program is designed to bring divine intervention 
+         into every area of your life, including your family, business, career, 
+         and personal endeavors..
+      </p>
+      <p class="text-lg text-gray-600 mb-6">
+        Join us every Wednesday from 10:00 AM to 12:00 Noon for a time of heartfelt worship, 
+        fervent prayers, and impactful teachings that will uplift your spirit and renew your
+         hope. Don’t miss this opportunity to encounter God’s grace and mercy in a powerful way. Come and be blessed!.
+      </p>
+     
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="mx-auto items-center max-w-3xl px-4 md:px-8">
+    <!-- Image Section -->
+    <div class="w-full mb-8">
+      <img src="../assets/to.jpg" alt="About Us" class="shadow-lg w-full h-96 object-cover mx-auto">
+    </div>
+  </div>
+</section>
+
+
+      
   
       <!-- Events Section -->
       <section class="py-16 bg-white text-center">
@@ -123,6 +131,12 @@
           </div>
         </div>
       </section>
+
+<section>
+      <div class=" bg-blue-900 mb-24 flex justify-center items-center">
+    <img src="../assets/DS.JPG" alt="Centered Image" class="max-w-full max-h-full"/>
+  </div></section>
+      
       <section class="py-16 bg-gray-100 text-center">
       <h2 class="text-3xl font-semibold mb-8">Testimonies</h2>
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto text-gray-700">
@@ -141,7 +155,9 @@
       </div>
     </section>
   
-      
+    
+
+
     </div>
   </template>
   
