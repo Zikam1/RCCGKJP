@@ -2,7 +2,7 @@
   <section class="md:py-24 bg-gray-100">
   <div class="container mx-auto flex flex-col md:flex-row items-center max-w-5xl px-4 md:px-8">
     <div class="md:w-1/2">
-      <img src="../assets/pc.JPG" class="w-full h-84 rounded-xl object-cover">
+      <img src="../assets/pc.jpg" class="w-full h-84 rounded-xl object-cover">
     </div>
     <div class="md:w-1/2 mt-16 md:mt-0 md:ml-10">
       <h2 class="text-3xl font-bold text-gray-800 mb-4">PASTOR CHUMA OKORONKWO </h2>
