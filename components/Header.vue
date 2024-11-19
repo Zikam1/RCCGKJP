@@ -14,6 +14,7 @@
         <nuxt-link to="/" class="text-yellow-500 hover:text-yellow-600">Home</nuxt-link>
         <nuxt-link to="/about" class="hover:text-yellow-500">About Us</nuxt-link>
         <nuxt-link to="/ministries" class="hover:text-yellow-500">Ministries</nuxt-link>
+        <nuxt-link to="/mission" class="hover:text-yellow-500">Mission & Vision</nuxt-link>
         
       </nav>
 
@@ -43,6 +44,7 @@
         <li><nuxt-link to="/sermons" @click="closeMenu" class="hover:text-yellow-500">Sermons</nuxt-link></li>
         <li><nuxt-link to="/ministries" @click="closeMenu" class="hover:text-yellow-500">Ministries</nuxt-link></li>
         <li><nuxt-link to="/donate" @click="closeMenu" class="hover:text-yellow-500">Donate</nuxt-link></li>
+        <li><nuxt-link to="/mission" @click="closeMenu" class="hover:text-yellow-500">Mission and vision</nuxt-link></li>
       </ul>
     </div>
   </header>
