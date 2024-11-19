@@ -46,7 +46,7 @@
 
         <!-- Card 2 -->
         <div class="bg-white rounded-lg shadow-md overflow-hidden">
-          <img src="../assets/DEEP.JPG" alt="" class="w-full h-60 object-cover">
+          <img src="../assets/DEEP.jpg" alt="" class="w-full h-60 object-cover">
           <div class="p-6">
             <h3 class="text-xl text-center font-semibold mb-2">DIGGING DEEP</h3>
             <p class="text-gray-600 text-center">Timing: 5:30 PM - 7:30 PM</p>
