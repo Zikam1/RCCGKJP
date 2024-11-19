@@ -14,9 +14,8 @@
       <!-- Quick Links for Church Pages -->
       <div class="flex flex-wrap justify-center space-x-6 mb-6">
         <nuxt-link to="/about" class="hover:text-yellow-400">About Us</nuxt-link>
-        <nuxt-link to="/sermons" class="hover:text-yellow-400">Sermons</nuxt-link>
         <nuxt-link to="/ministries" class="hover:text-yellow-400">Ministries</nuxt-link>
-        <nuxt-link to="/events" class="hover:text-yellow-400">Events</nuxt-link>
+        <nuxt-link to="/mission" class="hover:text-yellow-400">Mission & vision</nuxt-link>
         <nuxt-link to="/contact" class="hover:text-yellow-400">Contact</nuxt-link>
       </div>
 

@@ -41,9 +41,9 @@
       <ul class="space-y-4 py-4 px-6">
         <li><nuxt-link to="/" @click="closeMenu" class="text-yellow-500 hover:text-yellow-600">Home</nuxt-link></li>
         <li><nuxt-link to="/about" @click="closeMenu" class="hover:text-yellow-500">About Us</nuxt-link></li>
-        <li><nuxt-link to="/sermons" @click="closeMenu" class="hover:text-yellow-500">Sermons</nuxt-link></li>
+        
         <li><nuxt-link to="/ministries" @click="closeMenu" class="hover:text-yellow-500">Ministries</nuxt-link></li>
-        <li><nuxt-link to="/donate" @click="closeMenu" class="hover:text-yellow-500">Donate</nuxt-link></li>
+      
         <li><nuxt-link to="/mission" @click="closeMenu" class="hover:text-yellow-500">Mission and vision</nuxt-link></li>
       </ul>
     </div>

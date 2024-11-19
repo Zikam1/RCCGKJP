@@ -5,22 +5,6 @@
       <div class="absolute inset-0 bg-black bg-opacity-10"></div> <!-- Overlay for better contrast -->
 
       <!-- Content container, adjusted to move content down -->
-      <div class="relative z-10 text-center px-4 sm:px-8 md:px-16 lg:px-24 pt-24">
-        <!-- Heading -->
-        <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight mb-4">
-          Welcome to Our Church
-        </h1>
-
-        <!-- Subheading -->
-        <p class="text-sm sm:text-lg md:text-xl lg:text-2xl max-w-xl mx-auto mb-6">
-          Join us for worship and spiritual growth.
-        </p>
-
-        <!-- Call to action button -->
-        <button class="bg-yellow-500 hover:bg-yellow-600 text-white px-8 py-4 rounded-xl shadow-lg focus:outline-none">
-          Plan Your Visit
-        </button>
-      </div>
     </section>
 
     <!-- Mission Statement Section -->
@@ -86,34 +70,40 @@
 
     <!-- Image Section -->
     <section>
-      <div class="mx-auto items-center max-w-3xl px-4 md:px-8">
-        <div class="w-full mb-8">
-          <img src="../assets/to.jpg" alt="About Us" class="shadow-lg w-full h-96 object-cover mx-auto">
-        </div>
-      </div>
-    </section>
+  <div class="mx-auto items-center max-w-3xl px-4 md:px-8">
+    <div class="w-full mb-8">
+      <img 
+        src="../assets/to.jpg" 
+        alt="About Us" 
+        class="shadow-lg w-full max-h-[500px] object-cover object-center mx-auto rounded-lg">
+    </div>
+  </div>
+</section>
 
     <!-- Upcoming Events Section -->
     <section class="py-16 bg-white text-center">
-      <h2 class="text-3xl font-semibold mb-8">Upcoming Events</h2>
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 text-gray-700">
-        <div class="bg-gray-100 p-6 rounded-lg shadow">
-          <h3 class="text-2xl font-semibold mb-2">Monthly Revival</h3>
-          <p>January 15, 2024 - 6:00 PM</p>
-          <p class="mt-2">Join us for a night of worship, prayer, and revival in God’s presence.</p>
-        </div>
-        <div class="bg-gray-100 p-6 rounded-lg shadow">
-          <h3 class="text-2xl font-semibold mb-2">Youth Conference</h3>
-          <p>February 25, 2024 - 10:00 AM</p>
-          <p class="mt-2">A gathering of young believers focused on spiritual growth and community.</p>
-        </div>
-        <div class="bg-gray-100 p-6 rounded-lg shadow">
-          <h3 class="text-2xl font-semibold mb-2">Women's Retreat</h3>
-          <p>March 10, 2024 - 9:00 AM</p>
-          <p class="mt-2">Empowering women to live fully in Christ’s love and purpose.</p>
-        </div>
+  <div class="container mx-auto px-4 lg:px-8">
+    <h2 class="text-3xl font-semibold mb-8">Upcoming Programs</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 text-gray-700">
+      <div class="bg-gray-100 p-6 rounded-lg shadow">
+        <h3 class="text-2xl font-semibold mb-2">Monthly Revival</h3>
+        <p>January 15, 2024 - 6:00 PM</p>
+        <p class="mt-2">Join us for a night of worship, prayer, and revival in God’s presence.</p>
       </div>
-    </section>
+      <div class="bg-gray-100 p-6 rounded-lg shadow">
+        <h3 class="text-2xl font-semibold mb-2">Youth Conference</h3>
+        <p>February 25, 2024 - 10:00 AM</p>
+        <p class="mt-2">A gathering of young believers focused on spiritual growth and community.</p>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-lg shadow">
+        <h3 class="text-2xl font-semibold mb-2">Women's Retreat</h3>
+        <p>March 10, 2024 - 9:00 AM</p>
+        <p class="mt-2">Empowering women to live fully in Christ’s love and purpose.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
     <!-- Centered Image Section -->
     <section>
