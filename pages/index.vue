@@ -65,7 +65,7 @@
               <NuxtLink 
         to="/testimonies" 
         class="bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded-lg mt-4">
-        Click to See Testimonies
+        Click to See Prayers / Testimonies
       </NuxtLink>
         </div>
         
@@ -91,9 +91,9 @@
     <h2 class="text-3xl font-semibold mb-8">Upcoming Programs</h2>
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 text-gray-700">
       <div class="bg-gray-100 p-6 rounded-lg shadow">
-        <h3 class="text-2xl font-semibold mb-2">Monthly Revival</h3>
-        <p>January 15, 2024 - 6:00 PM</p>
-        <p class="mt-2">Join us for a night of worship, prayer, and revival in God’s presence.</p>
+        <h3 class="text-2xl font-semibold mb-2">Onward Christian SOldier</h3>
+        <p>9th - 15th  Dec , 2024 </p>
+        <p class="mt-2">Redemption City, km 46, Lagos Ibadan express way.</p>
       </div>
       <div class="bg-gray-100 p-6 rounded-lg shadow">
         <h3 class="text-2xl font-semibold mb-2">Youth Conference</h3>
@@ -101,9 +101,9 @@
         <p class="mt-2">A gathering of young believers focused on spiritual growth and community.</p>
       </div>
       <div class="bg-gray-100 p-6 rounded-lg shadow">
-        <h3 class="text-2xl font-semibold mb-2">Women's Retreat</h3>
-        <p>March 10, 2024 - 9:00 AM</p>
-        <p class="mt-2">Empowering women to live fully in Christ’s love and purpose.</p>
+        <h3 class="text-2xl font-semibold mb-2">Pastor E.A. Adeboye's Visits</h3>
+        <p>Jan 2025</p>
+        <p class="mt-2">His visits to Rivers State are marked by crusades, conferences, ordinations, community outreach, and spiritual guidance for the faithful..</p>
       </div>
     </div>
   </div>
