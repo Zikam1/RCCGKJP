@@ -18,7 +18,7 @@
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <!-- Card 1 -->
         <div class="bg-white rounded-lg shadow-md overflow-hidden">
-          <!-- <img src="/assets/ss.jpeg" alt="Service Image" class="w-full h-60 object-cover"> -->
+          <img src="../assets/ss.png" alt="Service Image" class="w-full h-60 object-cover">
           <div class="p-6">
             <h3 class="text-xl text-center font-semibold mb-2">SUNDAY SERVICE</h3>
             <p class="text-gray-600 text-center">Timing: 8:00 AM - 11:30 AM</p>
