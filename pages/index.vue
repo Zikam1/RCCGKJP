@@ -113,7 +113,7 @@
     <!-- Centered Image Section -->
     <section>
       <div class="bg-blue-900 mb-24 flex justify-center items-center">
-        <img src="../assets/DS.JPG" alt="Centered Image" class="max-w-full max-h-full"/>
+        <img src="../assets/ds.JPG" alt="Centered Image" class="max-w-full max-h-full"/>
       </div>
     </section>
 
