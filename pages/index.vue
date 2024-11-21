@@ -61,8 +61,16 @@
           <p class="text-lg text-gray-600 mb-6">
             Join us every Wednesday from 10:00 AM to 12:00 Noon for a time of heartfelt worship, fervent prayers, and impactful teachings that will uplift your spirit and renew your hope. Don’t miss this opportunity to encounter God’s grace and mercy in a powerful way. Come and be blessed!
           </p>
+          
+              <NuxtLink 
+        to="/testimonies" 
+        class="bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded-lg mt-4">
+        Click to See Testimonies
+      </NuxtLink>
         </div>
+        
       </div>
+      
     </section>
 
     <!-- Image Section -->
