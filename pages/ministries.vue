@@ -1,19 +1,5 @@
 <template>
-  <section class="md:py-24 bg-gray-100">
-  <div class="container mx-auto flex flex-col md:flex-row items-center max-w-5xl px-4 md:px-8">
-    <div class="md:w-1/2">
-      <img src="../assets/pc.png" class="w-full h-84 rounded-xl object-cover">
-    </div>
-    <div class="md:w-1/2 mt-16 md:mt-0 md:ml-10">
-      <h2 class="text-3xl font-bold text-gray-800 mb-4">PASTOR CHUMA OKORONKWO </h2>
-      <h2 class="text-lg font-bold text-gray-600 mb-4">ZONAL PASTOR IN CHARGE </h2>
-      <p class="text-lg text-gray-600 mb-4">We gather every Tuesday for Digging Deep at 5:30 PM, 
-        Thursday for Faith Clinic at 5:30 PM, and Sunday for our main service at 8:00 AM. We would be delighted to have you join us!</p>
-      <p class="text-lg text-gray-600 mb-6">
-        
-      </p>
-    </div>
-  </div>
+  
 
 
     <section class="py-24 bg-gray-100">
@@ -39,5 +25,23 @@
         </div>
       </div>
     </section>
+
+
+
+    <section class="md:py-24 bg-gray-100">
+  <div class="container mx-auto flex flex-col md:flex-row items-center max-w-5xl px-4 md:px-8">
+    <div class="md:w-1/2">
+      <img src="../assets/pc.png" class="w-full h-84 rounded-xl object-cover">
+    </div>
+    <div class="md:w-1/2 mt-16 md:mt-0 md:ml-10">
+      <h2 class="text-3xl font-bold text-gray-800 mb-4">PASTOR CHUMA OKORONKWO </h2>
+      <h2 class="text-lg font-bold text-gray-600 mb-4">ZONAL PASTOR IN CHARGE </h2>
+      <p class="text-lg text-gray-600 mb-4">We gather every Tuesday for Digging Deep at 5:30 PM, 
+        Thursday for Faith Clinic at 5:30 PM, and Sunday for our main service at 8:00 AM. We would be delighted to have you join us!</p>
+      <p class="text-lg text-gray-600 mb-6">
+        
+      </p>
+    </div>
+  </div>
   </section>
 </template>
