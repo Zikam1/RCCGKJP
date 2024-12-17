@@ -52,9 +52,9 @@ const departments = [
     name: "Choir Department",
     description: "Leading the congregation in worship through music and songs.",
     images: [
-      "/assets/choir1.jpg",
-      "/assets/choir2.jpg",
-      "/assets/choir3.jpg",
+      "../assets/choir-1.jpg",
+      "../assets/choir-2.jpg",
+      "../assets/choir-3.jpg",
       "/assets/choir4.jpg",
     ],
   },
@@ -63,10 +63,10 @@ const departments = [
     name: "Youth Ministry",
     description: "Empowering and mentoring the next generation of leaders.",
     images: [
-      "/assets/youth1.jpg",
-      "/assets/youth2.jpg",
-      "/assets/youth3.jpg",
-      "/assets/youth4.jpg",
+      "../assets/youth-1.jpg",
+      "../assets/youth-2.jpg",
+      "../assets/youth-3.jpg",
+      "../assets/youth-4.jpg",
     ],
   },
   {
