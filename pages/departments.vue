@@ -8,28 +8,67 @@
       </p>
     </div>
 
-    <!-- Department Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6 lg:px-24">
-      <div
-        v-for="department in departments"
-        :key="department.id"
-        class="bg-white shadow-lg rounded-lg overflow-hidden"
-      >
-        <!-- Department Title -->
-        <div class="p-6">
-          <h2 class="text-2xl font-semibold text-gray-700">{{ department.name }}</h2>
-          <p class="text-sm text-gray-500 mt-2">{{ department.description }}</p>
+
+  
+
+
+  <div class="container mx-auto p-4">
+    <!-- Grid Container -->
+    <div class="grid grid-cols-3 gap-6">
+      <!-- Column 1 - Department 1 -->
+      <div>
+        <h2 class="text-xl font-semibold text-center text-blue-600 mb-4">Department 1</h2>
+        <div class="space-y-4">
+          <div class="overflow-hidden rounded-lg shadow-lg">
+            <img src="/assets/youth-11.jpg" alt="Image 1" class="w-full h-auto object-cover">
+          </div>
+          <div class="overflow-hidden rounded-lg shadow-lg">
+            <img src="/assets/youth-11.jpg" alt="Image 2" class="w-full h-auto object-cover">
+          </div>
+          <div class="overflow-hidden rounded-lg shadow-lg">
+            <img src="/assets/youth-11.jpg" alt="Image 3" class="w-full h-auto object-cover">
+          </div>
+          <div class="overflow-hidden rounded-lg shadow-lg">
+            <img src="/assets/youth-11.jpg" alt="Image 4" class="w-full h-auto object-cover">
+          </div>
         </div>
-        
-        <!-- Department Images -->
-        <div class="grid grid-cols-2 gap-2 p-4">
-          <img
-            v-for="(image, index) in department.images"
-            :key="index"
-            :src="image"
-            alt="Department Image"
-            class="rounded-lg object-cover h-32 w-full"
-          />
+      </div>
+
+      <!-- Column 2 - Department 2 -->
+      <div>
+        <h2 class="text-xl font-semibold text-center text-green-600 mb-4">Department 2</h2>
+        <div class="space-y-4">
+          <div class="overflow-hidden rounded-lg shadow-lg">
+            <img src="/assets/youth-11.jpg" alt="Image 5" class="w-full h-auto object-cover">
+          </div>
+          <div class="overflow-hidden rounded-lg shadow-lg">
+            <img src="/assets/youth-11.jpg" alt="Image 6" class="w-full h-auto object-cover">
+          </div>
+          <div class="overflow-hidden rounded-lg shadow-lg">
+            <img src="/assets/youth-11.jpg" alt="Image 7" class="w-full h-auto object-cover">
+          </div>
+          <div class="overflow-hidden rounded-lg shadow-lg">
+            <img src="/assets/youth-11.jpg" alt="Image 8" class="w-full h-auto object-cover">
+          </div>
+        </div>
+      </div>
+
+      <!-- Column 3 - Department 3 -->
+      <div>
+        <h2 class="text-xl font-semibold text-center text-red-600 mb-4">Department 3</h2>
+        <div class="space-y-4">
+          <div class="overflow-hidden rounded-lg shadow-lg">
+            <img src="/assets/youth-11.jpg" alt="Image 9" class="w-full h-auto object-cover">
+          </div>
+          <div class="overflow-hidden rounded-lg shadow-lg">
+            <img src="/assets/youth-11.jpg" alt="Image 10" class="w-full h-auto object-cover">
+          </div>
+          <div class="overflow-hidden rounded-lg shadow-lg">
+            <img src="/assets/youth-11.jpg" alt="Image 11" class="w-full h-auto object-cover">
+          </div>
+          <div class="overflow-hidden rounded-lg shadow-lg">
+            <img src="/assets/youth-11.jpg" alt="Image 12" class="w-full h-auto object-cover">
+          </div>
         </div>
         
         <!-- Learn More Button -->
@@ -37,10 +76,10 @@
           <button
             class="px-4 py-2 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition"
           >
-            Learn More  -
+            Learn More
           </button>
         </div>
-      </div>
+      </div></div>
     </div>
   </section>
 </template>
@@ -48,92 +87,67 @@
 <script setup>
 const departments = [
   {
-    id: 1,
-    name: "Choir Department",
-    description: "Leading the congregation in worship through music and songs.",
-    images: [
-      "../assets/choir-1.jpg",
-      "../assets/choir-2.jpg",
-      "../assets/choir-3.jpg",
-      "/assets/choir4.jpg",
-    ],
+    name: "Choir",
+    description:
+      "Responsible for leading worship and music during church services and events.",
+    image1: "/assets/choir-1.jpg",
+    image2: "/images/choir2.jpg",
   },
   {
-    id: 2,
-    name: "Youth Ministry",
-    description: "Empowering and mentoring the next generation of leaders.",
-    images: [
-      "../assets/youth-1.jpg",
-      "../assets/youth-2.jpg",
-      "../assets/youth-3.jpg",
-      "../assets/youth-4.jpg",
-    ],
+    name: "Ushering",
+    description:
+      "Ensures smooth organization of church services by guiding members to their seats and maintaining order.",
+    image1: "/images/usher1.jpg",
+    image2: "/images/usher2.jpg",
   },
   {
-    id: 3,
-    name: "Ushering Department",
-    description: "Providing a warm welcome and ensuring order during services.",
-    images: [
-      "/assets/usher1.jpg",
-      "/assets/usher2.jpg",
-      "/assets/usher3.jpg",
-      "/assets/usher4.jpg",
-    ],
-  },
-  {
-    id: 4,
     name: "Children's Ministry",
-    description: "Teaching kids about the love of God in a fun environment.",
-    images: [
-      "/assets/children1.jpg",
-      "/assets/children2.jpg",
-      "/assets/children3.jpg",
-      "/assets/children4.jpg",
-    ],
+    description:
+      "Provides spiritual nurturing and teaching for children in an engaging and age-appropriate manner.",
+    image1: "/images/children1.jpg",
+    image2: "/images/children2.jpg",
   },
   {
-    id: 5,
     name: "Prayer Warriors",
-    description: "Interceding on behalf of the church and its members.",
-    images: [
-      "/assets/prayer1.jpg",
-      "/assets/prayer2.jpg",
-      "/assets/prayer3.jpg",
-      "/assets/prayer4.jpg",
-    ],
+    description:
+      "Focuses on intercessory prayers for the church, members, and global concerns.",
+    image1: "/images/prayer1.jpg",
+    image2: "/images/prayer2.jpg",
   },
   {
-    id: 6,
-    name: "Media and Technical",
-    description: "Managing sound, visuals, and online streaming for services.",
-    images: [
-      "/assets/media1.jpg",
-      "/assets/media2.jpg",
-      "/assets/media3.jpg",
-      "/assets/media4.jpg",
-    ],
+    name: "Media & Technical Team",
+    description:
+      "Handles sound, lighting, and projection to ensure seamless audio-visual support for services.",
+    image1: "/images/media1.jpg",
+    image2: "/images/media2.jpg",
   },
   {
-    id: 7,
-    name: "Evangelism",
-    description: "Sharing the Gospel and winning souls for Christ.",
-    images: [
-      "/assets/evangelism1.jpg",
-      "/assets/evangelism2.jpg",
-      "/assets/evangelism3.jpg",
-      "/assets/evangelism4.jpg",
-    ],
-  },
-  {
-    id: 8,
     name: "Hospitality",
-    description: "Welcoming guests and ensuring their comfort during events.",
-    images: [
-      "/assets/hospitality1.jpg",
-      "/assets/hospitality2.jpg",
-      "/assets/hospitality3.jpg",
-      "/assets/hospitality4.jpg",
-    ],
+    description:
+      "Welcomes newcomers, organizes refreshments, and ensures a warm atmosphere in church events.",
+    image1: "/images/hospitality1.jpg",
+    image2: "/images/hospitality2.jpg",
+  },
+  {
+    name: "Evangelism Team",
+    description:
+      "Organizes outreach programs to spread the Gospel and connect with the community.",
+    image1: "/images/evangelism1.jpg",
+    image2: "/images/evangelism2.jpg",
+  },
+  {
+    name: "Sanctuary Keepers",
+    description:
+      "Ensures cleanliness and maintenance of the church premises.",
+    image1: "/images/sanctuary1.jpg",
+    image2: "/images/sanctuary2.jpg",
+  },
+  {
+    name: "Welfare Department",
+    description:
+      "Supports members in need and organizes charitable outreach programs.",
+    image1: "/images/welfare1.jpg",
+    image2: "/images/welfare2.jpg",
   },
 ];
 </script>

@@ -15,7 +15,7 @@
         <nuxt-link to="/about" class="hover:text-yellow-500">About Us</nuxt-link>
         <nuxt-link to="/ministries" class="hover:text-yellow-500">Ministries</nuxt-link>
         <nuxt-link to="/mission" class="hover:text-yellow-500">Mission & Vision</nuxt-link>
-        <nuxt-link to="/department" class="hover:text-yellow-500">Departments</nuxt-link>
+        <nuxt-link to="/departments" class="hover:text-yellow-500">Departments</nuxt-link>
         
       </nav>
 
