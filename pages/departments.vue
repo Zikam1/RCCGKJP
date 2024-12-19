@@ -8,179 +8,174 @@
       </p>
     </div>
 
-
-  
-
-
-  <div class="container mx-auto p-4">
-    <!-- Grid Container -->
-    <div class="grid grid-cols-3 gap-6">
-      <!-- Column 1 - Department 1 -->
-      <div>
-        <h2 class="text-xl font-semibold text-center text-blue-600 mb-4">Department 1</h2>
-        <div class="space-y-4">
-          <div class="overflow-hidden rounded-lg shadow-lg">
-            <img src="/assets/youth-11.jpg" alt="Image 1" class="w-full h-auto object-cover">
+    <div class="container mx-auto p-4">
+      <!-- Grid Container -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Column 1 - Youth Ministry -->
+        <div>
+          <h2 class="text-xl font-semibold text-center text-blue-600 mb-4">Youth Ministry</h2>
+          <div class="space-y-4">
+            <div class="grid grid-cols-2 gap-4">
+              <div class="overflow-hidden rounded-lg shadow-lg">
+                <img src="/assets/youth-6.jpg" alt="Youth Ministry Image 1" class="w-full h-auto object-cover">
+              </div>
+              <div class="overflow-hidden rounded-lg shadow-lg">
+                <img src="/assets/youth-7.jpg" alt="Youth Ministry Image 2" class="w-full h-auto object-cover">
+              </div>
+            </div>
+            <p class="text-center mt-4 text-gray-600">
+              Organizing youth events, Bible studies, and mentoring the young members in their spiritual journey.
+            </p>
           </div>
-          <div class="overflow-hidden rounded-lg shadow-lg">
-            <img src="/assets/youth-11.jpg" alt="Image 2" class="w-full h-auto object-cover">
+        </div>
+
+        <!-- Column 2 - Women's Ministry -->
+        <div>
+          <h2 class="text-xl font-semibold text-center text-green-600 mb-4">Women's Ministry</h2>
+          <div class="space-y-4">
+            <div class="grid grid-cols-2 gap-4">
+              <div class="overflow-hidden rounded-lg shadow-lg">
+                <img src="/assets/wm.jpg" alt="Women's Ministry Image 1" class="w-full h-auto object-cover">
+              </div>
+              <div class="overflow-hidden rounded-lg shadow-lg">
+                <img src="/assets/wm-2.jpg" alt="Women's Ministry Image 2" class="w-full h-auto object-cover">
+              </div>
+            </div>
+            <p class="text-center mt-4 text-gray-600">
+              Hosting prayer meetings, Bible studies, and providing support for women in the congregation.
+            </p>
           </div>
-          <div class="overflow-hidden rounded-lg shadow-lg">
-            <img src="/assets/youth-11.jpg" alt="Image 3" class="w-full h-auto object-cover">
-          </div>
-          <div class="overflow-hidden rounded-lg shadow-lg">
-            <img src="/assets/youth-11.jpg" alt="Image 4" class="w-full h-auto object-cover">
+        </div>
+
+        <!-- Column 3 - Men's Fellowship -->
+        <div>
+          <h2 class="text-xl font-semibold text-center text-red-600 mb-4">Men's Fellowship</h2>
+          <div class="space-y-4">
+            <div class="grid grid-cols-2 gap-4">
+              <div class="overflow-hidden rounded-lg shadow-lg">
+                <img src="/assets/mm.jpg" alt="Men's Fellowship Image 1" class="w-full h-auto object-cover">
+              </div>
+              <div class="overflow-hidden rounded-lg shadow-lg">
+                <img src="/assets/mm2.jpg" alt="Men's Fellowship Image 2" class="w-full h-auto object-cover">
+              </div>
+            </div>
+            <p class="text-center mt-4 text-gray-600">
+              Encouraging spiritual growth among men and planning activities like retreats and community service.
+            </p>
           </div>
         </div>
       </div>
 
-      <!-- Column 2 - Department 2 -->
-      <div>
-        <h2 class="text-xl font-semibold text-center text-green-600 mb-4">Department 2</h2>
-        <div class="space-y-4">
-          <div class="overflow-hidden rounded-lg shadow-lg">
-            <img src="/assets/youth-11.jpg" alt="Image 5" class="w-full h-auto object-cover">
+      <!-- Grid Container for More Departments -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+        <!-- Column 1 - Prayer Ministry -->
+        <div>
+          <h2 class="text-xl font-semibold text-center text-indigo-600 mb-4">Prayer Ministry</h2>
+          <div class="space-y-4">
+            <div class="grid grid-cols-2 gap-4">
+              <div class="overflow-hidden rounded-lg shadow-lg">
+                <img src="/assets/pray1.jpg" alt="Prayer Ministry Image 1" class="w-full h-auto object-cover">
+              </div>
+              <div class="overflow-hidden rounded-lg shadow-lg">
+                <img src="/assets/pray.jpg" alt="Prayer Ministry Image 2" class="w-full h-auto object-cover">
+              </div>
+            </div>
+            <p class="text-center mt-4 text-gray-600">
+              Organizing prayer meetings, interceding for the church and community, and supporting the spiritual needs of members.
+            </p>
           </div>
-          <div class="overflow-hidden rounded-lg shadow-lg">
-            <img src="/assets/youth-11.jpg" alt="Image 6" class="w-full h-auto object-cover">
+        </div>
+
+        <!-- Column 2 - Children's Ministry -->
+        <div>
+          <h2 class="text-xl font-semibold text-center text-orange-600 mb-4">Children's Ministry</h2>
+          <div class="space-y-4">
+            <div class="grid grid-cols-2 gap-4">
+              <div class="overflow-hidden rounded-lg shadow-lg">
+                <img src="/assets/child-1.jpg" alt="Children's Ministry Image 1" class="w-full h-auto object-cover">
+              </div>
+              <div class="overflow-hidden rounded-lg shadow-lg">
+                <img src="/assets/child-2.jpg" alt="Children's Ministry Image 2" class="w-full h-auto object-cover">
+              </div>
+            </div>
+            <p class="text-center mt-4 text-gray-600">
+              Teaching Bible stories, organizing Sunday school, and creating a safe and engaging environment for children.
+            </p>
           </div>
-          <div class="overflow-hidden rounded-lg shadow-lg">
-            <img src="/assets/youth-11.jpg" alt="Image 7" class="w-full h-auto object-cover">
-          </div>
-          <div class="overflow-hidden rounded-lg shadow-lg">
-            <img src="/assets/youth-11.jpg" alt="Image 8" class="w-full h-auto object-cover">
+        </div>
+
+        <!-- Column 3 - Choir -->
+        <div>
+          <h2 class="text-xl font-semibold text-center text-teal-600 mb-4">Choir</h2>
+          <div class="space-y-4">
+            <div class="grid grid-cols-2 gap-4">
+              <div class="overflow-hidden rounded-lg shadow-lg">
+                <img src="/assets/choir-1.jpg" alt="Choir Image 1" class="w-full h-auto object-cover">
+              </div>
+              <div class="overflow-hidden rounded-lg shadow-lg">
+                <img src="/assets/choir-2.jpg" alt="Choir Image 2" class="w-full h-auto object-cover">
+              </div>
+            </div>
+            <p class="text-center mt-4 text-gray-600">
+              Organizing outreach programs and sharing the gospel through various community initiatives.
+            </p>
           </div>
         </div>
       </div>
 
-      <!-- Column 3 - Department 3 -->
-      <div>
-        <h2 class="text-xl font-semibold text-center text-red-600 mb-4">Department 3</h2>
-        <div class="space-y-4">
-          <div class="overflow-hidden rounded-lg shadow-lg">
-            <img src="/assets/youth-11.jpg" alt="Image 9" class="w-full h-auto object-cover">
-          </div>
-          <div class="overflow-hidden rounded-lg shadow-lg">
-            <img src="/assets/youth-11.jpg" alt="Image 10" class="w-full h-auto object-cover">
-          </div>
-          <div class="overflow-hidden rounded-lg shadow-lg">
-            <img src="/assets/youth-11.jpg" alt="Image 11" class="w-full h-auto object-cover">
-          </div>
-          <div class="overflow-hidden rounded-lg shadow-lg">
-            <img src="/assets/youth-11.jpg" alt="Image 12" class="w-full h-auto object-cover">
+      <!-- Additional Departments -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+        <div>
+          <h2 class="text-xl font-semibold text-center text-pink-600 mb-4">Media & Technology Ministry</h2>
+          <div class="space-y-4">
+            <div class="grid grid-cols-2 gap-4">
+              <div class="overflow-hidden rounded-lg shadow-lg">
+                <img src="/assets/tec.jpg" alt="Media & Technology Ministry Image 1" class="w-full h-auto object-cover">
+              </div>
+              <div class="overflow-hidden rounded-lg shadow-lg">
+                <img src="/assets/tec2.jpg" alt="Media & Technology Ministry Image 2" class="w-full h-auto object-cover">
+              </div>
+            </div>
+            <p class="text-center mt-4 text-gray-600">
+              Managing audiovisuals for services, live streaming events, and supporting the church’s digital presence.
+            </p>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
 
-
-
-    
-  </section>
-  <section class="bg-gray-50 py-12">
-    <div class="container mx-auto px-6">
-      <h1 class="text-4xl font-bold text-center mb-8">Church Departments</h1>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div
-          v-for="department in departments"
-          :key="department.name"
-          class="bg-white p-6 shadow rounded-lg hover:shadow-lg transition"
-        >
-          <h2 class="text-2xl font-semibold text-blue-600 mb-4">
-            {{ department.name }}
-          </h2>
-          <div class="flex gap-4 mb-4">
-            <img
-              :src="department.image1"
-              :alt="`${department.name} image 1`"
-              class="w-1/2 h-32 object-cover rounded-lg"
-            />
-            <img
-              :src="department.image2"
-              :alt="`${department.name} image 2`"
-              class="w-1/2 h-32 object-cover rounded-lg"
-            />
+        <div>
+          <h2 class="text-xl font-semibold text-center text-pink-600 mb-4">Welfare</h2>
+          <div class="space-y-4">
+            <div class="grid grid-cols-2 gap-4">
+              <div class="overflow-hidden rounded-lg shadow-lg">
+                <img src="/assets/walfare.jpg" alt="Welfare Ministry Image 1" class="w-full h-auto object-cover">
+              </div>
+              <div class="overflow-hidden rounded-lg shadow-lg">
+                <img src="/assets/walfare2.jpg" alt="Welfare Ministry Image 2" class="w-full h-auto object-cover">
+              </div>
+            </div>
+            <p class="text-center mt-4 text-gray-600">
+              Supporting members in need and organizing charitable activities for the less privileged.
+            </p>
           </div>
-          <p class="text-gray-700">{{ department.description }}</p>
+        </div>
+
+        <div>
+          <h2 class="text-xl font-semibold text-center text-pink-600 mb-4">Evangelism & Outreach</h2>
+          <div class="space-y-4">
+            <div class="grid grid-cols-2 gap-4">
+              <div class="overflow-hidden rounded-lg shadow-lg">
+                <img src="/assets/ev.jpg" alt="Evangelism Image 1" class="w-full h-auto object-cover">
+              </div>
+              <div class="overflow-hidden rounded-lg shadow-lg">
+                <img src="/assets/ev2.jpeg" alt="Evangelism Image 2" class="w-full h-auto object-cover">
+              </div>
+            </div>
+            <p class="text-center mt-4 text-gray-600">
+              Spreading the gospel and organizing community outreach initiatives.
+            </p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 </template>
-
-<script setup>
-const departments = [
-  {
-    name: "Choir",
-    description:
-      "Responsible for leading worship and music during church services and events.",
-    image1: "/assets/choir-1.jpg",
-    image2: "/images/choir2.jpg",
-  },
-  {
-    name: "Ushering",
-    description:
-      "Ensures smooth organization of church services by guiding members to their seats and maintaining order.",
-    image1: "/images/usher1.jpg",
-    image2: "/images/usher2.jpg",
-  },
-  {
-    name: "Children's Ministry",
-    description:
-      "Provides spiritual nurturing and teaching for children in an engaging and age-appropriate manner.",
-    image1: "/images/children1.jpg",
-    image2: "/images/children2.jpg",
-  },
-  {
-    name: "Prayer Warriors",
-    description:
-      "Focuses on intercessory prayers for the church, members, and global concerns.",
-    image1: "/images/prayer1.jpg",
-    image2: "/images/prayer2.jpg",
-  },
-  {
-    name: "Media & Technical Team",
-    description:
-      "Handles sound, lighting, and projection to ensure seamless audio-visual support for services.",
-    image1: "/images/media1.jpg",
-    image2: "/images/media2.jpg",
-  },
-  {
-    name: "Hospitality",
-    description:
-      "Welcomes newcomers, organizes refreshments, and ensures a warm atmosphere in church events.",
-    image1: "/images/hospitality1.jpg",
-    image2: "/images/hospitality2.jpg",
-  },
-  {
-    name: "Evangelism Team",
-    description:
-      "Organizes outreach programs to spread the Gospel and connect with the community.",
-    image1: "/images/evangelism1.jpg",
-    image2: "/images/evangelism2.jpg",
-  },
-  {
-    name: "Sanctuary Keepers",
-    description:
-      "Ensures cleanliness and maintenance of the church premises.",
-    image1: "/images/sanctuary1.jpg",
-    image2: "/images/sanctuary2.jpg",
-  },
-  {
-    name: "Welfare Department",
-    description:
-      "Supports members in need and organizes charitable outreach programs.",
-    image1: "/images/welfare1.jpg",
-    image2: "/images/welfare2.jpg",
-  },
-];
-</script>
-
-<style scoped>
-section {
-  background-image: url('/assets/bg-pattern.jpg');
-  background-size: cover;
-  background-position: center;
-}
-</style>

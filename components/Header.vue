@@ -46,6 +46,7 @@
         <li><nuxt-link to="/ministries" @click="closeMenu" class="hover:text-yellow-500">Ministries</nuxt-link></li>
       
         <li><nuxt-link to="/mission" @click="closeMenu" class="hover:text-yellow-500">Mission and vision</nuxt-link></li>
+        <li><nuxt-link to="/departments" @click="closeMenu" class="hover:text-yellow-500">Departments</nuxt-link></li>
       </ul>
     </div>
   </header>
