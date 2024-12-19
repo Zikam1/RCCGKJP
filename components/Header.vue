@@ -47,8 +47,8 @@
       
         <li><nuxt-link to="/mission" @click="closeMenu" class="hover:text-yellow-500">Mission and vision</nuxt-link></li>
         <li><nuxt-link to="/departments" @click="closeMenu" class="hover:text-yellow-500">Departments</nuxt-link></li>
-        <li><nuxt-link to="/prayer" @click="closeMenu" class="hover:text-yellow-500">prayers</nuxt-link></li>
-        <li><nuxt-link to="/contact" @click="closeMenu" class="hover:text-yellow-500">contact</nuxt-link></li>
+        <li><nuxt-link to="/prayer" @click="closeMenu" class="hover:text-yellow-500">Prayers</nuxt-link></li>
+        <li><nuxt-link to="/contact" @click="closeMenu" class="hover:text-yellow-500">Contact</nuxt-link></li>
       </ul>
     </div>
   </header>
