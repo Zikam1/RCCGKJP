@@ -78,10 +78,103 @@
 
     
   </section>
+  <section class="bg-gray-50 py-12">
+    <div class="container mx-auto px-6">
+      <h1 class="text-4xl font-bold text-center mb-8">Church Departments</h1>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div
+          v-for="department in departments"
+          :key="department.name"
+          class="bg-white p-6 shadow rounded-lg hover:shadow-lg transition"
+        >
+          <h2 class="text-2xl font-semibold text-blue-600 mb-4">
+            {{ department.name }}
+          </h2>
+          <div class="flex gap-4 mb-4">
+            <img
+              :src="department.image1"
+              :alt="`${department.name} image 1`"
+              class="w-1/2 h-32 object-cover rounded-lg"
+            />
+            <img
+              :src="department.image2"
+              :alt="`${department.name} image 2`"
+              class="w-1/2 h-32 object-cover rounded-lg"
+            />
+          </div>
+          <p class="text-gray-700">{{ department.description }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script setup>
-
+const departments = [
+  {
+    name: "Choir",
+    description:
+      "Responsible for leading worship and music during church services and events.",
+    image1: "/assets/choir-1.jpg",
+    image2: "/images/choir2.jpg",
+  },
+  {
+    name: "Ushering",
+    description:
+      "Ensures smooth organization of church services by guiding members to their seats and maintaining order.",
+    image1: "/images/usher1.jpg",
+    image2: "/images/usher2.jpg",
+  },
+  {
+    name: "Children's Ministry",
+    description:
+      "Provides spiritual nurturing and teaching for children in an engaging and age-appropriate manner.",
+    image1: "/images/children1.jpg",
+    image2: "/images/children2.jpg",
+  },
+  {
+    name: "Prayer Warriors",
+    description:
+      "Focuses on intercessory prayers for the church, members, and global concerns.",
+    image1: "/images/prayer1.jpg",
+    image2: "/images/prayer2.jpg",
+  },
+  {
+    name: "Media & Technical Team",
+    description:
+      "Handles sound, lighting, and projection to ensure seamless audio-visual support for services.",
+    image1: "/images/media1.jpg",
+    image2: "/images/media2.jpg",
+  },
+  {
+    name: "Hospitality",
+    description:
+      "Welcomes newcomers, organizes refreshments, and ensures a warm atmosphere in church events.",
+    image1: "/images/hospitality1.jpg",
+    image2: "/images/hospitality2.jpg",
+  },
+  {
+    name: "Evangelism Team",
+    description:
+      "Organizes outreach programs to spread the Gospel and connect with the community.",
+    image1: "/images/evangelism1.jpg",
+    image2: "/images/evangelism2.jpg",
+  },
+  {
+    name: "Sanctuary Keepers",
+    description:
+      "Ensures cleanliness and maintenance of the church premises.",
+    image1: "/images/sanctuary1.jpg",
+    image2: "/images/sanctuary2.jpg",
+  },
+  {
+    name: "Welfare Department",
+    description:
+      "Supports members in need and organizes charitable outreach programs.",
+    image1: "/images/welfare1.jpg",
+    image2: "/images/welfare2.jpg",
+  },
+];
 </script>
 
 <style scoped>
