@@ -121,6 +121,60 @@
             </p>
           </div>
         </div>
+
+
+        <div>
+          <h2 class="text-xl font-semibold text-center text-teal-600 mb-4">Media & Technology Ministry</h2>
+          <div class="space-y-4">
+            <div class="grid grid-cols-2 gap-4">
+              <div class="overflow-hidden rounded-lg shadow-lg">
+                <img src="/assets/tec.jpg" alt="Choir Image 1" class="w-full h-auto object-cover">
+              </div>
+              <div class="overflow-hidden rounded-lg shadow-lg">
+                <img src="/assets/tec2.jpg" alt="Choir Image 2" class="w-full h-auto object-cover">
+              </div>
+            </div>
+            <p class="text-center mt-4 text-gray-600">
+              Organizing outreach programs and sharing the gospel through various community initiatives.
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <h2 class="text-xl font-semibold text-center text-teal-600 mb-4">Welfare</h2>
+          <div class="space-y-4">
+            <div class="grid grid-cols-2 gap-4">
+              <div class="overflow-hidden rounded-lg shadow-lg">
+                <img src="/assets/walfare.jpg" alt="Choir Image 1" class="w-full h-auto object-cover">
+              </div>
+              <div class="overflow-hidden rounded-lg shadow-lg">
+                <img src="/assets/walfare2.jpg" alt="Choir Image 2" class="w-full h-auto object-cover">
+              </div>
+            </div>
+            <p class="text-center mt-4 text-gray-600">
+              Organizing outreach programs and sharing the gospel through various community initiatives.
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <h2 class="text-xl font-semibold text-center text-teal-600 mb-4">Evangelism & Outreach</h2>
+          <div class="space-y-4">
+            <div class="grid grid-cols-2 gap-4">
+              <div class="overflow-hidden rounded-lg shadow-lg">
+                <img src="/assets/ev.jpg" alt="Choir Image 1" class="w-full h-auto object-cover">
+              </div>
+              <div class="overflow-hidden rounded-lg shadow-lg">
+                <img src="/assets/ev2.jpeg" alt="Choir Image 2" class="w-full h-auto object-cover">
+              </div>
+            </div>
+            <p class="text-center mt-4 text-gray-600">
+              Organizing outreach programs and sharing the gospel through various community initiatives.
+            </p>
+          </div>
+        </div>
+
+        
       </div>
     </div>
   </section>
