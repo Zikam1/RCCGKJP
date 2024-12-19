@@ -165,7 +165,7 @@
                 <img src="/assets/ev.jpg" alt="Choir Image 1" class="w-full h-auto object-cover">
               </div>
               <div class="overflow-hidden rounded-lg shadow-lg">
-                <img src="/assets/ev2.jpeg" alt="Choir Image 2" class="w-full h-auto object-cover">
+                <img src="/assets/ev2.jpg" alt="Choir Image 2" class="w-full h-auto object-cover">
               </div>
             </div>
             <p class="text-center mt-4 text-gray-600">
