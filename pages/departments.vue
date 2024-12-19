@@ -1,16 +1,16 @@
 <template>
   <section class="bg-gray-100 py-16">
     <!-- Hero Section -->
-    <div class="text-center mb-12">
+    <div class="text-center mb-12 px-4 sm:px-8 lg:px-16">
       <h1 class="text-4xl font-bold text-gray-800">Our Departments</h1>
       <p class="text-lg text-gray-600 mt-4">
         Explore the vibrant ministries and departments that make our church family special.
       </p>
     </div>
 
-    <div class="container mx-auto p-4">
+    <div class="container mx-auto px-4 sm:px-8 lg:px-16">
       <!-- Grid Container -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         <!-- Column 1 - Youth Ministry -->
         <div>
           <h2 class="text-xl font-semibold text-center text-blue-600 mb-4">Youth Ministry</h2>
@@ -67,7 +67,7 @@
       </div>
 
       <!-- Grid Container for More Departments -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
         <!-- Column 1 - Prayer Ministry -->
         <div>
           <h2 class="text-xl font-semibold text-center text-indigo-600 mb-4">Prayer Ministry</h2>
@@ -118,60 +118,6 @@
             </div>
             <p class="text-center mt-4 text-gray-600">
               Organizing outreach programs and sharing the gospel through various community initiatives.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Additional Departments -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
-        <div>
-          <h2 class="text-xl font-semibold text-center text-pink-600 mb-4">Media & Technology Ministry</h2>
-          <div class="space-y-4">
-            <div class="grid grid-cols-2 gap-4">
-              <div class="overflow-hidden rounded-lg shadow-lg">
-                <img src="/assets/tec.jpg" alt="Media & Technology Ministry Image 1" class="w-full h-auto object-cover">
-              </div>
-              <div class="overflow-hidden rounded-lg shadow-lg">
-                <img src="/assets/tec2.jpg" alt="Media & Technology Ministry Image 2" class="w-full h-auto object-cover">
-              </div>
-            </div>
-            <p class="text-center mt-4 text-gray-600">
-              Managing audiovisuals for services, live streaming events, and supporting the church’s digital presence.
-            </p>
-          </div>
-        </div>
-
-        <div>
-          <h2 class="text-xl font-semibold text-center text-pink-600 mb-4">Welfare</h2>
-          <div class="space-y-4">
-            <div class="grid grid-cols-2 gap-4">
-              <div class="overflow-hidden rounded-lg shadow-lg">
-                <img src="/assets/walfare.jpg" alt="Welfare Ministry Image 1" class="w-full h-auto object-cover">
-              </div>
-              <div class="overflow-hidden rounded-lg shadow-lg">
-                <img src="/assets/walfare2.jpg" alt="Welfare Ministry Image 2" class="w-full h-auto object-cover">
-              </div>
-            </div>
-            <p class="text-center mt-4 text-gray-600">
-              Supporting members in need and organizing charitable activities for the less privileged.
-            </p>
-          </div>
-        </div>
-
-        <div>
-          <h2 class="text-xl font-semibold text-center text-pink-600 mb-4">Evangelism & Outreach</h2>
-          <div class="space-y-4">
-            <div class="grid grid-cols-2 gap-4">
-              <div class="overflow-hidden rounded-lg shadow-lg">
-                <img src="/assets/ev.jpg" alt="Evangelism Image 1" class="w-full h-auto object-cover">
-              </div>
-              <div class="overflow-hidden rounded-lg shadow-lg">
-                <img src="/assets/ev2.jpeg" alt="Evangelism Image 2" class="w-full h-auto object-cover">
-              </div>
-            </div>
-            <p class="text-center mt-4 text-gray-600">
-              Spreading the gospel and organizing community outreach initiatives.
             </p>
           </div>
         </div>
