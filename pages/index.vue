@@ -128,8 +128,6 @@
          <p class="text-lg text-gray-700 mb-2">Date: 26th Jan, 2025</p>
          <p class="text-lg text-gray-700 mb-2">Time: 7am</p>
           <p class="text-lg text-gray-700 font-semibold mb-2">Don’t miss this extraordinary opportunity to witness Divine Manifestation in your life.</p>
-     
-     
     </div>
 
     <!-- Image Section -->

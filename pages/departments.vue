@@ -135,7 +135,7 @@
               </div>
             </div>
             <p class="text-center mt-4 text-gray-600">
-              Organizing outreach programs and sharing the gospel through various community initiatives.
+              Managing audiovisuals for services, live streaming events, and supporting the church’s digital presence..
             </p>
           </div>
         </div>
@@ -152,7 +152,7 @@
               </div>
             </div>
             <p class="text-center mt-4 text-gray-600">
-              Organizing outreach programs and sharing the gospel through various community initiatives.
+              Supporting members in need and organizing charitable activities for the less privileged..
             </p>
           </div>
         </div>
@@ -169,7 +169,7 @@
               </div>
             </div>
             <p class="text-center mt-4 text-gray-600">
-              Organizing outreach programs and sharing the gospel through various community initiatives.
+              Spreading the gospel and organizing community outreach initiatives.
             </p>
           </div>
         </div>
