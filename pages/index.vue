@@ -30,7 +30,7 @@
           <img src="../assets/DEEP.png" alt="" class="w-full h-60 object-cover">
           <div class="p-6">
             <h3 class="text-xl text-center font-semibold mb-2">DIGGING DEEP</h3>
-            <p class="text-gray-600 text-center">Timing: 5:30 PM - 7:30 PM</p>
+            <p class="text-gray-600 text-center">Timing: 5:30 PM - 7:00 PM</p>
           </div>
         </div>
 
@@ -49,7 +49,7 @@
     <section class="py-24 bg-gray-50">
       <div class="container mx-auto flex flex-col md:flex-row items-center max-w-5xl px-4 md:px-8">
         <div class="md:w-1/2">
-          <img src="../assets/hhmm.jpg" alt="About Us" class="rounded-lg shadow-lg">
+          <img src="../assets/wedi.jpg" alt="About Us" class="rounded-lg shadow-lg">
         </div>
         <div class="md:w-1/2 mt-8 md:mt-0 md:ml-10">
           <h2 class="text-3xl font-bold text-gray-800 mb-4">HOUR OF MERCY</h2>
@@ -78,7 +78,7 @@
   <div class="mx-auto items-center max-w-3xl px-4 md:px-8">
     <div class="w-full mb-8">
       <img 
-        src="../assets/to.jpg" 
+        src="../assets/Feb.png" 
         alt="About Us" 
         class="shadow-lg w-full max-h-[500px] object-cover object-center mx-auto rounded-lg">
     </div>
@@ -88,22 +88,58 @@
     <!-- Upcoming Events Section -->
     <section class="py-16 bg-white text-center">
   <div class="container mx-auto px-4 lg:px-8">
-    <h2 class="text-3xl font-semibold mb-8">Upcoming Programs</h2>
+    <h2 class="text-3xl font-bold mb-8">Upcoming Programs</h2>
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 text-gray-700">
       <div class="bg-gray-100 p-6 rounded-lg shadow">
-        <h3 class="text-2xl font-semibold mb-2">Onward Christian SOldier</h3>
-        <p>9th - 15th  Dec , 2024 </p>
+        <h3 class="text-2xl font-semibold mb-2">Glory Ahead 2</h3>
+        <p>7th Feb, 2025 </p>
+        <p>Time: 7pm </p>
         <p class="mt-2">Redemption City, km 46, Lagos Ibadan express way.</p>
       </div>
       <div class="bg-gray-100 p-6 rounded-lg shadow">
-        <h3 class="text-2xl font-semibold mb-2">Youth Conference</h3>
-        <p>February 25, 2024 - 10:00 AM</p>
-        <p class="mt-2">A gathering of young believers focused on spiritual growth and community.</p>
+        <h3 class="text-2xl font-semibold mb-2">Youth (YAYA) Program</h3>
+        <p>Every Monday</p>
+        <p>Time: 5:30 PM - 6:30 PM</p>
+        <p class="mt-2">A Gathering of Young believers focused on Spiritual Growth.</p>
       </div>
       <div class="bg-gray-100 p-6 rounded-lg shadow">
         <h3 class="text-2xl font-semibold mb-2">Pastor E.A. Adeboye's Visits</h3>
-        <p>Jan 2025</p>
+        <p>26th Jan, 2025</p>
         <p class="mt-2">His visits to Rivers State are marked by crusades, conferences, ordinations, community outreach, and spiritual guidance for the faithful..</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="py-24 bg-gradient-to-br from-gray-100 via-gray-50 to-gray-200">
+  <div class="container mx-auto flex flex-col md:flex-row items-center max-w-5xl px-4 md:px-8">
+    <!-- Text Section -->
+    <div class="md:w-1/2 order-2 md:order-1 mt-8 md:mt-0 md:mr-10">
+      <h2 class="text-4xl font-extrabold text-gray-800 mb-4">
+        PORT HARCOURT HOLYGHOST RALLY!
+      </h2>
+      <h1 class="text-2xl  font-semibold mb-2">Join us for an extraordinary spiritual experience at the Port Harcourt HolyGhost Rally with the theme: "DIVINE MANIFESTATION."</h1>
+      <p class="text-lg text-gray-700 mb-2">
+        This life-changing event will feature Pastor E.A. Adeboye, the General Overseer of the Redeemed Christian Church of God (RCCG), delivering a powerful message that will inspire, uplift, and transform your life.
+      </p>
+      <p class="text-lg text-gray-700 mb-2">Prepare to encounter God's divine power and glory as we worship, pray, and experience His mighty presence. Be sure to invite your friends,
+         family, and loved ones to partake in this divine encounter.</p>
+         <p class="text-lg text-gray-700 mb-2">Date: 26th Jan, 2025</p>
+         <p class="text-lg text-gray-700 mb-2">Time: 7am</p>
+          <p class="text-lg text-gray-700 font-semibold mb-2">Don’t miss this extraordinary opportunity to witness Divine Manifestation in your life.</p>
+     
+     
+    </div>
+
+    <!-- Image Section -->
+    <div class="md:w-1/2 order-1 md:order-2">
+      <div class="relative rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 ease-in-out">
+        <img 
+          src="../assets/RFM.jpg" 
+          alt="About Us" 
+          class="rounded-lg">
+        <div class="absolute inset-0 bg-indigo-500 bg-opacity-30"></div>
       </div>
     </div>
   </div>
@@ -116,6 +152,11 @@
         <img src="../assets/ds.JPG" alt="Centered Image" class="max-w-full max-h-full"/>
       </div>
     </section>
+
+
+
+    
+
 
     <!-- Testimonies Section -->
     <section class="py-16 bg-gray-100 text-center">
