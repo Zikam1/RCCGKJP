@@ -49,7 +49,7 @@
     <section class="py-24 bg-gray-50">
       <div class="container mx-auto flex flex-col md:flex-row items-center max-w-5xl px-4 md:px-8">
         <div class="md:w-1/2">
-          <img src="../assets/wedi.jpg" alt="About Us" class="rounded-lg shadow-lg">
+          <img src="../assets/ui.jpg" alt="About Us" class="rounded-lg shadow-lg">
         </div>
         <div class="md:w-1/2 mt-8 md:mt-0 md:ml-10">
           <h2 class="text-3xl font-bold text-gray-800 mb-4">HOUR OF MERCY</h2>
