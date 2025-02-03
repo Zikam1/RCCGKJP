@@ -62,11 +62,38 @@
             Join us every Wednesday from 10:00 AM to 12:00 Noon for a time of heartfelt worship, fervent prayers, and impactful teachings that will uplift your spirit and renew your hope. Don’t miss this opportunity to encounter God’s grace and mercy in a powerful way. Come and be blessed!
           </p>
           
-              <NuxtLink 
-        to="/testimonies" 
-        class="bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded-lg mt-4">
-        Click to See Prayers / Testimonies
-      </NuxtLink>
+              <div class="mt-4 flex space-x-4">
+  <div class="mt-4">
+  <!-- Buttons Section -->
+  <div class="flex space-x-4">
+    <div class="mt-4 flex items-center space-x-4">
+  <!-- Button -->
+  <NuxtLink 
+    to="/testimonies" 
+    class="bg-pink-400 hover:bg-pink-400 text-white py-2 px-4 rounded-lg">
+    Click to See Prayers / Testimonies
+  </NuxtLink>
+
+  <!-- Social Icons -->
+  <div class="flex space-x-2">
+    <a href="https://www.facebook.com/rccgkingjesusfamily" target="_blank" aria-label="Facebook"> 
+      <svg class="h-8 w-8 text-gray-900 hover:text-blue-600" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M22.675 0H1.325C.593 0 0 .594 0 1.326v21.348C0 23.406.594 24 1.325 24h11.495v-9.294H9.689V10.61h3.131V8.044c0-3.1 1.894-4.788 4.66-4.788 1.324 0 2.463.099 2.795.143v3.241l-1.918.001c-1.504 0-1.796.715-1.796 1.763v2.309h3.587l-.467 3.096h-3.12V24h6.116c.73 0 1.325-.594 1.325-1.326V1.326C24 .594 23.406 0 22.675 0z"/>
+      </svg>
+    </a>
+
+    <a href="https://www.youtube.com/@kingjesusparishtv" target="_blank" aria-label="YouTube">
+      <svg class="h-8 w-8 text-gray-900 hover:text-red-600" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M23.498 6.186a2.886 2.886 0 0 0-2.031-2.043C19.225 3.5 12 3.5 12 3.5s-7.225 0-9.467.643A2.886 2.886 0 0 0 .502 6.186 30.87 30.87 0 0 0 0 12a30.87 30.87 0 0 0 .502 5.814 2.886 2.886 0 0 0 2.031 2.043C4.775 20.5 12 20.5 12 20.5s7.225 0 9.467-.643a2.886 2.886 0 0 0 2.031-2.043A30.87 30.87 0 0 0 24 12a30.87 30.87 0 0 0-.502-5.814ZM9.75 15.318V8.682l6.45 3.318-6.45 3.318Z"/>
+      </svg>
+    </a>
+  </div>
+</div></div>
+</div>
+  
+</div>
+
+      
         </div>
         
       </div>
@@ -103,10 +130,13 @@
         <p class="mt-2">A Gathering of Young believers focused on Spiritual Growth.</p>
       </div>
       <div class="bg-gray-100 p-6 rounded-lg shadow">
-        <h3 class="text-2xl font-semibold mb-2">Pastor E.A. Adeboye's Visits</h3>
-        <p>26th Jan, 2025</p>
-        <p class="mt-2">His visits to Rivers State are marked by crusades, conferences, ordinations, community outreach, and spiritual guidance for the faithful..</p>
-      </div>
+  <h3 class="text-2xl font-semibold mb-2 text-gray-700">Night of Help</h3>
+  <p class="text-gray-700 font-medium">📅 28th Feb, 2025</p>
+  <p class="mt-2 text-gray-600">
+    Join us for a powerful night of divine intervention, breakthroughs, and answered prayers. 
+    Come expectant and experience a night of transformation!
+  </p>
+</div>
     </div>
   </div>
 </section>

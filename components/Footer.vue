@@ -21,12 +21,6 @@
 
       <!-- Social Media Icons -->
       <div class="flex justify-center space-x-4 mb-6">
-        <!-- <a href="https://twitter.com/YourChurchTwitter" target="_blank" aria-label="Twitter">
-         
-          <svg class="h-6 w-6 text-gray-400 hover:text-yellow-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path d="M23.643 4.937c-.835.37-1.73.62-2.675.733a4.615 4.615 0 002.019-2.55 9.172 9.172 0 01-2.917 1.115 4.602 4.602 0 00-7.835 4.195 13.052 13.052 0 01-9.47-4.8 4.601 4.601 0 001.424 6.14 4.553 4.553 0 01-2.085-.577v.057a4.607 4.607 0 003.693 4.514 4.605 4.605 0 01-2.079.079 4.608 4.608 0 004.3 3.198A9.24 9.24 0 010 19.539 13.004 13.004 0 007.032 21c8.448 0 13.064-7.002 13.064-13.063 0-.198-.005-.395-.014-.59A9.332 9.332 0 0024 4.557a9.157 9.157 0 01-2.357.645z"/>
-          </svg>
-        </a> -->
         <a href="https://www.facebook.com/rccgkingjesusfamily" target="_blank" aria-label="Facebook">
           <!-- Facebook SVG Icon -->
           <svg class="h-6 w-6 text-gray-400 hover:text-yellow-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -40,6 +34,12 @@
             <path d="M12 9.5C10.6193 9.5 9.5 10.6193 9.5 12C9.5 13.3807 10.6193 14.5 12 14.5C13.3807 14.5 14.5 13.3807 14.5 12C14.5 10.6193 13.3807 9.5 12 9.5Z"/>
           </svg>
         </a>
+        <a href="https://www.youtube.com/@kingjesusparishtv" target="_blank" aria-label="YouTube">
+  <!-- YouTube SVG Icon -->
+  <svg class="h-6 w-6 text-gray-400 hover:text-red-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M23.498 6.186a2.886 2.886 0 0 0-2.031-2.043C19.225 3.5 12 3.5 12 3.5s-7.225 0-9.467.643A2.886 2.886 0 0 0 .502 6.186 30.87 30.87 0 0 0 0 12a30.87 30.87 0 0 0 .502 5.814 2.886 2.886 0 0 0 2.031 2.043C4.775 20.5 12 20.5 12 20.5s7.225 0 9.467-.643a2.886 2.886 0 0 0 2.031-2.043A30.87 30.87 0 0 0 24 12a30.87 30.87 0 0 0-.502-5.814ZM9.75 15.318V8.682l6.45 3.318-6.45 3.318Z"/>
+  </svg>
+</a>
       </div>
 
       <!-- Church Address and Contact Information -->
