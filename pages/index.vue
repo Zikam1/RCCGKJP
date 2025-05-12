@@ -1,8 +1,8 @@
 <template>
   <div class="bg-gray-100  text-gray-900">
-    <section class="relative md:pb-96 bg-[url('/assets/kjp-logo.jpg')] bg-cover bg-center text-white h-80 flex items-center justify-center">
+    <!-- <section class="relative md:pb-96 bg-[url('/assets/kjp-logo.jpg')] bg-cover bg-center text-white h-80 flex items-center justify-center">
   <div class="absolute inset-0 bg-black bg-opacity-10"></div> 
-</section>
+</section> -->
 
     <!-- Mission Statement Section -->
     <section class="py-16 bg-white text-center">
@@ -105,7 +105,7 @@
   <div class="mx-auto items-center max-w-3xl px-4 md:px-8">
     <div class="w-full mb-8">
       <img 
-        src="../assets/Feb.png" 
+        src="../assets/healing.jpg" 
         alt="About Us" 
         class="shadow-lg w-full max-h-[500px] object-cover object-center mx-auto rounded-lg">
     </div>

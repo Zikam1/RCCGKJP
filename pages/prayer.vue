@@ -1,86 +1,61 @@
 <template>
-  <section class="py-20 bg-gradient-to-r from-blue-300 to-indigo-200">
-    <div class="container mx-auto px-6">
-      <div class="text-center mb-16">
-        <h2 class="text-4xl font-bold text-white">Prayer Counseling</h2>
-        <p class="text-xl text-white mt-4">
-          Reach out to us for spiritual support, prayer, and guidance during difficult times.
+  <section class="py-20 bg-white">
+    <div class="container mx-auto px-6 max-w-4xl">
+      <!-- Header Section -->
+      <div class="text-center mb-12">
+        <h2 class="text-4xl font-bold text-gray-800">Prayer Counseling</h2>
+        <p class="text-lg text-gray-600 mt-4 max-w-2xl mx-auto">
+          Our dedicated team is here to offer spiritual support and prayer, guiding you through life's challenges with faith and compassion.
         </p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-        <!-- Left Section -->
-        <div class="bg-white bg-opacity-70 p-8 rounded-xl shadow-lg backdrop-blur-md">
-          <h3 class="text-2xl font-semibold text-gray-800 mb-6">How We Can Help You</h3>
-          <p class="text-lg text-gray-700 mb-4">
-            Prayer is a powerful tool for peace, clarity, and divine intervention. Our counseling team is here to help.
-          </p>
-          <h4 class="text-xl font-semibold text-gray-800 mt-4">Call Us</h4>
-          <p class="text-lg text-gray-700">+(123) 456-7890</p>
+      <!-- Contact Card -->
+      <div class="bg-blue-50 border border-blue-200 rounded-lg shadow-md p-8 mb-12 transition-all duration-300 hover:shadow-lg">
+        <h3 class="text-2xl font-semibold text-gray-800 mb-6 text-center">Reach Out to Us</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="flex flex-col items-center text-center">
+            <svg class="w-8 h-8 text-blue-600 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+            </svg>
+            <h4 class="text-lg font-medium text-gray-800">Phone</h4>
+            <p class="text-gray-600">+(123) 456-7890</p>
+          </div>
+          <div class="flex flex-col items-center text-center">
+            <svg class="w-8 h-8 text-blue-600 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+            </svg>
+            <h4 class="text-lg font-medium text-gray-800">Email</h4>
+            <p class="text-gray-600">prayer@rccgkingjesus.org</p>
+          </div>
+          <div class="flex flex-col items-center text-center">
+            <svg class="w-8 h-8 text-blue-600 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+            </svg>
+            <h4 class="text-lg font-medium text-gray-800">Address</h4>
+            <p class="text-gray-600">Redemption City, KM 46, Lagos-Ibadan Expressway</p>
+          </div>
         </div>
+      </div>
 
-        <!-- Right Section -->
-        <div class="bg-white bg-opacity-70 p-8 rounded-xl shadow-lg backdrop-blur-md">
-          <h3 class="text-2xl font-semibold text-gray-800 mb-6">Submit Your Prayer Request</h3>
-          <form @submit.prevent="submitPrayerRequest">
-            <div class="mb-6">
-              <label for="name" class="block text-sm font-medium text-gray-700">Full Name</label>
-              <input type="text" id="name" v-model="prayerForm.name" required class="w-full p-4 mt-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" />
-            </div>
-            <div class="mb-6">
-              <label for="email" class="block text-sm font-medium text-gray-700">Email Address</label>
-              <input type="email" id="email" v-model="prayerForm.email" required class="w-full p-4 mt-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" />
-            </div>
-            <div class="mb-6">
-              <label for="request" class="block text-sm font-medium text-gray-700">Prayer Request</label>
-              <textarea id="request" v-model="prayerForm.request" required class="w-full p-4 mt-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
-            </div>
-            <button type="submit" class="w-full py-4 px-6 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500">
-              Submit Prayer Request
-            </button>
-          </form>
-        </div>
+      <!-- Call to Action Section -->
+      <div class="text-center">
+        <p class="text-lg text-gray-600 mb-6">
+          Whether you need prayer, guidance, or a listening ear, we are here for you. Connect with us today or join our prayer sessions.
+        </p>
+       
       </div>
     </div>
   </section>
 </template>
 
 <script setup>
-import { ref } from 'vue';
-
-const prayerForm = ref({
-  name: '',
-  email: '',
-  request: ''
-});
-
-const submitPrayerRequest = async () => {
-  try {
-    const response = await fetch('/api/prayer-request', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(prayerForm.value),
-    });
-
-    if (!response.ok) {
-      throw new Error('Failed to submit prayer request');
-    }
-
-    const result = await response.json();
-    alert('Your prayer request has been submitted successfully.');
-    console.log(result);
-
-    // Clear the form
-    prayerForm.value = { name: '', email: '', request: '' };
-  } catch (error) {
-    console.error('Error submitting prayer request:', error);
-    alert('An error occurred. Please try again later.');
-  }
-};
+// No scripts needed for this static template.
 </script>
 
 <style scoped>
-/* Optional: Custom styles */
+/* Optional: Ensure hover effects are smooth */
+.transition-all {
+  transition: all 0.3s ease;
+}
 </style>
