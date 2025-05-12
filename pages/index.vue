@@ -101,18 +101,12 @@
       </div>
     </section>
 
-    
-
-    
-
-   
-
     <!-- Programs (Image) Section -->
     <section class="py-24 bg-white">
       <div class="container mx-auto text-center max-w-5xl px-4 md:px-8">
-        <h2 class="text-4xl font-bold text-gray-800">PROGRAMS</h2>
+        <h2 class="text-4xl font-bold text-gray-800">Upcoming Programs</h2>
         <div class="mt-10 overflow-hidden relative">
-          <div class="whitespace-nowrap animate-slide-left flex items-center">
+          <div class=" whitespace-nowrap animate-slide-left flex items-center">
             <!-- Image 1 -->
             <div class="inline-block mx-4">
               <img
@@ -146,7 +140,7 @@
     <!-- Upcoming Events Section -->
     <section class="py-16 bg-white text-center">
       <div class="container mx-auto px-4 lg:px-8">
-        <h2 class="text-3xl font-bold mb-8">Upcoming Programs</h2>
+        <h2 class="text-3xl font-bold mb-8">Cont'</h2>
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 text-gray-700">
           <div class="bg-gray-100 p-6 rounded-lg shadow">
             <h3 class="text-2xl font-semibold mb-2">Glory Ahead 2</h3>
